@@ -1,0 +1,216 @@
+.item1 { grid-area: neville;
+
+}
+
+.item2 { grid-area: fejlec;
+
+}
+
+.item3 { grid-area: memory;
+
+}
+
+.item4 { grid-area: Harry;
+    background-color: black;
+    color: white;
+    text-transform:uppercase;
+    max-height: 325px;
+
+}
+
+.item5 { grid-area: W;
+
+}
+
+.item6 { grid-area: page5;
+}
+
+.item7 { grid-area: calender;
+    margin-top: -20%;
+}
+
+.item8 { grid-area: snape;
+    margin-top: -10%;
+
+}
+
+.item9 { grid-area: snapestory;
+    margin-top: -10%;
+
+}
+
+.item10 { grid-area: roxford;
+    margin-top: -40%;
+
+}
+
+.item11 { grid-area: mcgonagall;
+
+}
+
+.item12 { grid-area: page4;
+}
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'neville neville neville fejlec fejlec fejlec fejlec fejlec memory memory memory'
+    'Harry Harry Harry Harry W W W W W page5 page5'
+    'calender calender calender snape snape snapestory snapestory snapestory snapestory page5 page5'
+    'calender calender calender snape snape snapestory snapestory snapestory snapestory roxford roxford'
+    'calender calender calender snape snape mcgonagall mcgonagall mcgonagall mcgonagall mcgonagall mcgonagall'
+    'calender calender calender page4 page4 page4 page4 page4 page4 page4 page4';
+  background-color: rgb(216, 209, 183);
+  width: auto;
+  height: auto;
+}
+
+.grid-container > div {
+  text-align: justify;
+}
+
+body{
+    text-align: center justify;
+}
+
+#kissujj{
+    float: left;
+    vertical-align: middle;
+    height: 50%;
+}
+#nagyujj{
+    float: left;
+    vertical-align: middle;
+    height: 10%;
+}
+.jobb{
+    float: right;
+    vertical-align: middle;
+    height: auto;
+}
+.ball{
+    float: left;
+    height: auto;
+}
+.f{
+    float: left;}
+.I{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.rock{
+    font-family: rock;
+}
+.Carnevalee{
+    font-family: Carnevalee;
+    font-size: 55px;
+}
+@font-face{
+    font-family: Carnevalee;
+    src: url('carnevalee_freakshow/Carnevalee\ Freakshow.ttf');
+}
+@font-face{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    src: url('impacted.ttf/impacted');
+}
+@font-face{
+    font-family: 'rock';
+    src: url('rockwell-extra-bold/rockeb.ttf');
+}
+.Exclusive{
+    background-color: black;
+    color:  rgb(216, 209, 183);
+}
+
+div.item1 p{
+    margin: 0px;
+    font-size: 200%;}
+
+div.item3 p{
+margin: 0px;
+font-family: rock;
+text-align: center;
+font-size: 270%;
+text-transform:uppercase;}
+
+div.item4 p{
+margin-top: -10px;
+padding: -100px;
+font-size: 900%;
+text-align: justify;
+text-transform:uppercase;}
+
+div.item5 p{
+    margin-top: -1%;
+    font-size: 410%;
+}
+
+div.item6 h1{
+    font-size: 250%;
+    margin-top: -1%;
+    text-transform:  uppercase;
+}
+div.item6 p{
+    margin-right: 10%;
+    font-size: 110%;
+}
+body div.item7 p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 305%;
+    text-align: center;
+    text-transform:uppercase;
+}
+.Dark{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250%;
+    margin: 0%;
+    text-transform:uppercase;}
+div.item7 td{
+    font-size: 170%;
+}
+div.item7 h3{
+    font-size: 165%;
+    margin: 0%;
+    text-transform:uppercase;}
+body div.item9 h1{
+    font-size: 250%;
+    margin-top: -3%;
+    margin-bottom: -10%;
+    font-family: rock;
+    text-transform:uppercase;;
+}
+body div.item9 h3{
+    font-size: 200%;
+    text-transform:uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body div.item9 p{
+    margin-top: -7%;
+    font-size: 85%;
+}
+div.item11 p{
+    font-size: 210%;
+    text-transform:uppercase;
+    font-family: rock;
+    margin-top: -1%;
+    margin-bottom: -2%;
+}
+
+#named{
+    font-size: 300%;
+    text-transform:uppercase;
+    font-family: carnevalee;
+    margin-bottom: 2%;
+}
+div.item12 p{
+    font-size: 150%;
+    text-transform:uppercase;
+    font-family: rock;
+}
+hr{
+    background-color: black;
+    height: 2px;
+}
